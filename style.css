@@ -65,14 +65,26 @@ h1 {
 
 .images {
     display: flex;
-    gap: 50px;
+    gap: 100px;
     justify-content: center;
 }
 
 .img-two {
-    background-color: cadetblue;
     width: 100px;
     height: 100px;
+}
+
+.one {
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: groove;
+    padding: 30px;
+}
+
+.subtext {
+    text-align: center;
+    margin-left: -5px;
+    width: 150px;
 }
 
 .quote {
@@ -82,7 +94,7 @@ h1 {
     font-style: #1f2937;
     font-size: 36px;
     background-color: #E5E7EB;
-    margin-top: 100px;
+    margin-top: 180px;
     display: flex;
     align-items: center;
     flex-direction: column;
