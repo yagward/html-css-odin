@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .navigation {
     background-color: #1f2937;
     color: white;
@@ -11,11 +15,120 @@
 .navigation .header-logo {
     font-size: 24px;
     font-weight: 800;
-    margin-right: 750px;
+    margin-right: 550px;
 }
 
 .navigation .header-link {
     font-size: 18px;
     display: flex;
     color: #E5E7EB;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 340px;
+}
+
+button {
+    width: 110px;
+    height: 50px;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.subheader {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+
+.img-one {
+    background-color: #E5E7EB;
+}
+
+.item-one {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.images {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.img-two {
+    background-color: cadetblue;
+    width: 100px;
+    height: 100px;
+}
+
+.quote {
+    padding-top: 60px;
+    padding-left: 550px;
+    padding-right: 550px;
+    font-style: #1f2937;
+    font-size: 36px;
+    background-color: #E5E7EB;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.thor {
+    font-size: 26px;
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 500px;
+    margin-top: 0px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    margin-right: 400px;
+    margin-left: 400px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.but-one {
+    border-color: white;
+    border: 2px;
+    border-style: double;
+    width: 100px;
+    height: 40px;
+}
+
+.end {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
